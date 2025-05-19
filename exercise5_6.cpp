@@ -53,7 +53,7 @@ int vowelsCount(const string vow)
 int wordsCount(const string& wed){
      int count = 0;
      for (int i = 0; i < wed.size(); i++){        
-         if (isspace(wed[i])){
+         if ((wed[i] = ' ')){
                count++;
          }
      }
